@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Numeriq</title>
+
+		<!-- favicon -->
+		<link rel="icon" type="image/x-icon" href="./images/logo.svg">
+
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap Link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	</head>
+
+	<body>
+		<!-- Start of Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light p-3 sticky-top">
+			<div class="container">
+				<a class="navbar-brand font-rj" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sigma-icon lucide-sigma"><path d="M18 7V5a1 1 0 0 0-1-1H6.5a.5.5 0 0 0-.4.8l4.5 6a2 2 0 0 1 0 2.4l-4.5 6a.5.5 0 0 0 .4.8H17a1 1 0 0 0 1-1v-2"/></svg>
+				Numeriq</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto d-flex d-grid gap-5">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Courses</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+					</ul>
+
+					<!-- Dropdown Container -->
+					<div class="dropdown">
+					  <!-- SVG Trigger -->
+					  <button class="dropdown-toggle border-0 bg-transparent" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+					    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user ms-5">
+					      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+					      <circle cx="12" cy="7" r="4"/>
+					    </svg>
+					  </button>
+
+					  <!-- Dropdown Menu -->
+					  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+					    <li><a class="dropdown-item" href="#">Log In</a></li>
+					    <li><a class="dropdown-item" href="#">Sign Up</a></li>
+					  </ul>
+					</div>
+
+				</div>
+			</div>
+		</nav>
+		<!-- End of Navbar -->
+
+		<!-- Start of Home Section -->
+		<div class="bg-hero" id="hero">
+		<div class="container py-5 mb-5">
+		  <div class="row">
+		    <div class="col-12 col-md-6 mt-5">
+		      <h1 id="hero-txt">Making Math Click, One Concept at a Time.</h1>
+		      <p class="text-light">Built to help students grasp math with ease and confidence.</p>
+		      <a href="#" id="btn-hero" class="btn p-2 mb-5">View Courses<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right ms-1"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></a>
+		      <div class="d-flex d-grid gap-5">
+		      <div class="text-light">
+		      	<h1>1000+</h1>
+		      	<h6>Courses Available</h6>
+		      </div>
+		      <div class="text-light">
+		      	<h1>5400+</h1>
+		      	<h6>Students Trained</h6>
+		      </div>
+		      <div class="text-light">
+		      	<h1>3000+</h1>
+		      	<h6>Professional Trainers</h6>
+		      </div>
+		      </div>
+		    </div>
+
+		    <div class="col-12 col-md-6">
+		      <!-- <img src="./images/hero-img.png" width="700px" class="img-fluid"> -->
+		    </div>
+		  </div>
+		</div>
+		</div>
+		<!-- End of Home Section -->
+
+		<!-- Start of Featured Section -->
+		<div class="container my-5 py-5" id="featured">
+
+			<div class="row g-4">
+
+				<div class="col-12 col-md-6">
+					<a href="#"><img src="./images/c1.png" class="img-fluid w-100"></a>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<a href="#"><img src="./images/c2.png" class="img-fluid w-100"></a>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<a href="#"><img src="./images/c3.png" class="img-fluid w-100"></a>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<a href="#"><img src="./images/c4.png" class="img-fluid w-100"></a>
+				</div>
+
+			</div>
+		</div>
+		<!-- End of Featured Section -->
+
+		<!-- Start of Categories Section -->
+		<div class="moving-gradient">
+		<div class="container py-5" id="categories-section">
+			<h1 class="text-center mb-4 font-rj text-light">Browse By Categories</h1>
+			<div class="row d-flex justify-content-center text-center">
+				<div class="col-md-4 mb-3">
+					<div class="category">Algebra
+						 <p class="category-text">Build a strong foundation with variables, equations, and the rules that govern how they work.</p>
+						  <a href="#" class="btn category-btn text-white w-50">Explore</a>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="category">Functions & Graphs
+					 <p class="category-text">Understand how different types of functions behave and how to visualize them on a graph.</p>
+					<a href="#" class="btn category-btn text-white w-50">Explore</a>
+				</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="category">Number & Operations
+					 <p class="category-text">Master the properties of numbers and the operations used to manipulate them.</p>
+					<a href="#" class="btn category-btn text-white w-50">Explore</a>
+				</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="category">Statistics & Probability
+					 <p class="category-text">Learn how to analyze data, measure chance, and make informed predictions.</p>
+					<a href="#" class="btn category-btn text-white w-50">Explore</a></div>
+
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="category">Geometry
+					 <p class="category-text">Explore shapes, sizes, and spaces—using algebra to solve geometric problems.</p>
+					<a href="#" class="btn category-btn text-white w-50">Explore</a></div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="category">Problem Solving & Reasoning
+					 <p class="category-text">Apply critical thinking and real-world strategies to tackle complex math challenges.</p>
+					<a href="#" class="btn category-btn text-white w-50">Explore</a>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- End of Categories Section -->
+
+
+		<!-- Start of About Us Section -->
+		<section class="about-us-section py-5">
+		  <div class="container pt-5">
+		    <h1 class="text-center mb-5 font-rj text-gradient pt-5">About Us</h1>
+		    <div class="row align-items-center mb-5">
+		      <div class="col-md-6">
+		        <div class="about-block block-left">
+		          <h3>⚙️ Our Mission</h3>
+		          <p>We're making math approachable and enjoyable through interactive tools and clear design — helping students truly understand, not just memorize.</p>
+		        </div>
+		      </div>
+		      <div class="col-md-6 text-end d-none d-md-block">
+		        <div class="line-connector"></div>
+		      </div>
+		    </div>
+
+		    <div class="row align-items-center mb-5 flex-md-row-reverse">
+		      <div class="col-md-6">
+		        <div class="about-block block-right">
+		          <h3>🔬 Our Approach</h3>
+		          <p>We use educational science and smart design to create content that adapts to learners and feels intuitive to explore.</p>
+		        </div>
+		      </div>
+		      <div class="col-md-6 text-start d-none d-md-block">
+		        <div class="line-connector reverse"></div>
+		      </div>
+		    </div>
+
+		    <div class="row justify-content-center">
+		      <div class="col-md-8">
+		        <div class="about-block block-center text-center">
+		          <h3>🌐 Our Vision</h3>
+		          <p>A future where math confidence is universal — where anyone, anywhere, can explore concepts with clarity and creativity.</p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</section>
+		<!-- End of About Us Section -->
+
+
+
+
+
+
+		<!-- Start of Footer -->
+		<footer class="pt-5">
+			<div class="container mt-5 pt-5">
+				<div class="row">
+					<!-- Numeriq + Contact Info -->
+					<div class="col-md-3 mb-4">
+						<h4 class="font-rj mb-3">Numeriq</h4>
+						<div class="d-flex flex-column gap-3">
+							<div class="d-flex align-items-center gap-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+								<span class="text-muted">123 Tech Street, Manila</span>
+							</div>
+							<div class="d-flex align-items-center gap-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+								<span class="text-muted">+63 900 123 4567</span>
+							</div>
+							<div class="d-flex align-items-center gap-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-icon lucide-clock"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/></svg>
+								<span class="text-muted">Mon - Fri, 9AM - 6PM</span>
+							</div>
+							<div class="d-flex align-items-center gap-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+								<span class="text-muted">numeriq@gmail.com</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Categories -->
+					<div class="col-md-3 mb-4">
+						<h5 class="font-rj mb-3">Categories</h5>
+						<div class="d-flex flex-column gap-2">
+							<a href="#" class="text-decoration-none text-muted">Algebra</a>
+							<a href="#" class="text-decoration-none text-muted">Functions & Graphs</a>
+							<a href="#" class="text-decoration-none text-muted">Number & Operations</a>
+							<a href="#" class="text-decoration-none text-muted">Statistics & Probability</a>
+							<a href="#" class="text-decoration-none text-muted">Geometry</a>
+							<a href="#" class="text-decoration-none text-muted">Problem Solving</a>
+						</div>
+					</div>
+
+					<!-- Quick Links -->
+					<div class="col-md-3 mb-4">
+						<h5 class="font-rj mb-3">Quick Links</h5>
+						<div class="d-flex flex-column gap-2">
+							<a href="#" class="text-decoration-none text-muted">Home</a>
+							<a href="#" class="text-decoration-none text-muted">About Us</a>
+							<a href="#" class="text-decoration-none text-muted">Courses</a>
+							<a href="#" class="text-decoration-none text-muted">Blog</a>
+						</div>
+					</div>
+
+					<!-- Newsletter -->
+					<div class="col-md-3 mb-4">
+						<h5 class="font-rj mb-3">Our Newsletter</h5>
+						<p class="text-muted mb-2">Subscribe to our newsletter to get updates about our grand offers.</p>
+						<form class="d-flex">
+							<input type="email" class="form-control text-muted" placeholder="Enter your e-mail">
+							<button type="submit" class="btn border p-2 ms-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send-icon lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<hr class="border-secondary" />
+
+				<div class="row">
+					<div class="col text-center">
+						<p class="text-muted mb-3">© Numeriq 2025. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+		<!-- Bootstrap Script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>

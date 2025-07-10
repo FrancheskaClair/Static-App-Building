@@ -1,0 +1,178 @@
+/*CSS Reset Rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+#hero{
+	background-image: url('https://media.wired.com/photos/670f87fe9cfe9e3de82bca3e/16:9/w_2560,h_1440,c_limit/Geometry-crSenor-Salme-AppleTileLede-scaled.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.6); 
+}
+
+nav{
+	background-color: white;
+}
+
+#hero-txt{
+	font-family: "Rajdhani";
+	font-size: 80px;
+	color: white;
+}
+
+
+#btn-hero {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+  transition: all 0.3s ease; 
+}
+
+#btn-hero:hover {
+  background: white;
+  color: #864a4c;
+}
+
+
+.font-rj{
+	font-family: "Rajdhani";
+}
+
+
+#featured img {
+  border-radius: 20px;
+  height: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#featured img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  height: 60px; 
+  overflow: hidden;
+  position: relative;
+  transition: height 0.4s ease, background-color 0.4s ease;
+  cursor: pointer;
+}
+
+.category-btn{
+	background-color: rgba(255, 255, 255, 0.1) !important;
+	color: white
+}
+
+.category-text,
+.category-btn {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  margin-top: 1rem;
+}
+
+
+.category:hover {
+  height: 200px; 
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.category:hover .category-text,
+.category:hover .category-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.moving-gradient {
+  background: linear-gradient(270deg, #da6125, #0f2e58);
+  background-size: 600% 600%;
+  animation: moveGradient 15s ease infinite;
+}
+
+
+
+.about-us-section {
+  color: #c9d1d9;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #405b93, #0f2e58);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-block {
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(64, 91, 147, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.about-block:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(64, 91, 147, 0.2);
+}
+
+.about-block h3 {
+  color: #405b93;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-block p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.line-connector {
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, #405b93, #0f2e58);
+  margin-left: auto;
+}
+
+.line-connector.reverse {
+  background: linear-gradient(to left, #405b93, #0f2e58);
+  margin-right: auto;
+}
+
+.block-center {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
