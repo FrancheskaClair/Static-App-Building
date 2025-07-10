@@ -8,7 +8,7 @@
 
 
 
-#hero{
+#home{
 	background-image: url('https://media.wired.com/photos/670f87fe9cfe9e3de82bca3e/16:9/w_2560,h_1440,c_limit/Geometry-crSenor-Salme-AppleTileLede-scaled.jpeg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -78,7 +78,7 @@ nav{
 
 .category-btn{
 	background-color: rgba(255, 255, 255, 0.1) !important;
-	color: white
+	color: white;
 }
 
 .category-text,
